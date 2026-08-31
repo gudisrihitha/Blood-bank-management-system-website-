@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Services | LifeLink</title><link rel="stylesheet" href="style.css"></head>
+<body><nav>
+<a class="logo" href="index.html">🩸 LifeLink Blood Bank</a>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav><div class="page-banner"><h1>Services & Blood Products</h1><p>Explore our blood bank related services.</p></div>
+<section><div class="cards">
+<div class="card"><div class="icon">🩸</div><h3>Blood Donation</h3><p>Information and registration for voluntary donors.</p></div>
+<div class="card"><div class="icon">🩺</div><h3>Blood Products</h3><p>Whole blood, red blood cells, plasma and platelets.</p></div>
+<div class="card"><div class="icon">🔍</div><h3>Availability Enquiry</h3><p>Submit an enquiry for a required blood group or product.</p></div>
+<div class="card"><div class="icon">🏥</div><h3>Emergency Request</h3><p>Contact us for urgent blood requirement information.</p></div>
+</div></section>
+<section id="enquiry"><div class="form-section"><div class="form-box"><h2>Blood Product Enquiry Form</h2>
+<form onsubmit="showMessage(event,'Enquiry submitted successfully!')">
+<label>Full Name</label><input type="text" required placeholder="Enter your name">
+<label>Email</label><input type="email" required placeholder="Enter your email">
+<label>Blood Group Required</label><select required><option value="">Select</option><option>A+</option><option>A-</option><option>B+</option><option>B-</option><option>AB+</option><option>AB-</option><option>O+</option><option>O-</option></select>
+<label>Blood Product</label><select><option>Whole Blood</option><option>Red Blood Cells</option><option>Plasma</option><option>Platelets</option></select>
+<label>Enquiry Message</label><textarea required placeholder="Write your enquiry"></textarea>
+<button class="btn" type="submit">Submit Enquiry</button></form></div></div></section>
+<script>function showMessage(e,m){e.preventDefault();alert(m);e.target.reset();}</script><footer>© 2026 LifeLink Blood Bank Management System | Educational Project</footer></body></html>
