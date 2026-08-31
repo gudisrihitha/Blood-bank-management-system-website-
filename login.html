@@ -1,20 +1,36 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Login | LifeLink Blood Bank</title><link rel="stylesheet" href="style.css"></head>
-<body><main class="login-page"><div class="login-box">
-<div class="blood"> </div><h1>LifeLink</h1><p>Blood Bank Management System</p>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Login | LifeLink Blood Bank</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+<body><main class="login-page">
+ <div class="login-box">
+<div class="blood"> 
+</div>
+  <h1>LifeLink</h1>
+  <p>Blood Bank Management System</p>
 <form onsubmit="return loginUser(event)">
-<label>Username</label><input id="username" type="text" placeholder="Enter username" required>
-<label>Password</label><input id="password" type="password" placeholder="Enter password" required>
-<br><button class="btn" type="submit">Login</button>
+<label>Username</label>
+ <input id="username" type="text" placeholder="Enter username" required>
+<label>Password</label>
+ <input id="password" type="password" placeholder="Enter password" required>
+<br>
+ <button class="btn" type="submit">Login</button>
 </form>
 <a class="small-link" href="registration.html">New user? Register here</a>
-</div></main>
+</div>
+</main>
 <script>
-function loginUser(event){
+function loginUser(event)
+{
  event.preventDefault();
  alert("Login successful!");
  window.location.href="index.html";
  return false;
 }
-</script></body></html>
+</script>
+</body>
+</html>
